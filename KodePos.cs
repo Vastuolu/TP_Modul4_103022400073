@@ -16,7 +16,7 @@ public class KodePos
 			{"Maleer", 40274}
 		};
 
-	public int getKodePos(string kelurahan)
+	public static int getKodePos(string kelurahan)
 	{
 		int kodePos = 0;
 		if (kodeKelurahan.TryGetValue(kelurahan, out kodePos))
